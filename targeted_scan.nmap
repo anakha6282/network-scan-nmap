@@ -1,0 +1,17 @@
+# Nmap 7.98 scan initiated Mon Sep 22 20:23:17 2025 as: nmap -sS -oA targeted_scan 192.168.19.172 192.168.19.230
+Nmap scan report for 192.168.19.172
+Host is up (0.0032s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: 82:C2:6D:18:34:6B (Unknown)
+
+Nmap scan report for 192.168.19.230
+Host is up (0.0000030s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+# Nmap done at Mon Sep 22 20:23:19 2025 -- 2 IP addresses (2 hosts up) scanned in 2.17 seconds
